@@ -6,7 +6,7 @@ let v;
 let dv;
 
 function preload() {
-	bold = loadImage("fodbold.png");
+  bold = loadImage("fodbold.png");
 }
 
 function setup() {
@@ -33,18 +33,18 @@ function draw() {
 function tegn() {
   translate(x, y);
   rotate(v);
-	image(bold, 0, 0, stor, stor);
+  image(bold, 0, 0, stor, stor);
 }
 
 function opdater() {
-	x = x + dx;
+  x = x + dx;
   if (x < stor / 2 || x > width - stor / 2) {
-  	dx = -dx;
+    dx = -dx;
   }
   
   y = y + dy;
   if (y < stor / 2 || y > height - stor / 2) {
-  	dy = -dy;
+    dy = -dy;
   }
   
   v = v + dv;

@@ -31,17 +31,17 @@ function gitter() {
   
   let x = - width;
   while(x < 2 * width) {
-  	line(x, -height, x, 2 * height);
+    line(x, -height, x, 2 * height);
     x += afstand;
   }
   
   let y = - height;
   while(y < 2 * height) {
-  	line(-width, y, 2 * width, y);
+    line(-width, y, 2 * width, y);
     y += afstand;
   }
   
   strokeWeight(10);
   stroke(255, 0, 0);
-	point(0, 0);
+  point(0, 0);
 }

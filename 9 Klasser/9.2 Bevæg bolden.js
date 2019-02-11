@@ -4,7 +4,7 @@ let x, y;
 let dx, dy;
 
 function preload() {
-	bold = loadImage("fodbold.png");
+  bold = loadImage("fodbold.png");
 }
 
 function setup() {
@@ -21,17 +21,17 @@ function draw() {
 }
 
 function tegn() {
-	image(bold, x, y, stor, stor);
+  image(bold, x, y, stor, stor);
 }
 
 function opdater() {
-	x = x + dx;
+  x = x + dx;
   if (x < 0 || x > width - stor) {
-  	dx = -dx;
+    dx = -dx;
   }
   
   y = y + dy;
   if (y < 0 || y > height - stor) {
-  	dy = -dy;
+    dy = -dy;
   }
 }

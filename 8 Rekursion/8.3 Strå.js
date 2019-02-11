@@ -13,7 +13,7 @@ function gren(l) {
   if (l < 3) {
     return;
   }
-	line(0, 0, 0, -l);
+  line(0, 0, 0, -l);
   translate(0, -l);
   rotate(15);
   gren(l * 0.5);

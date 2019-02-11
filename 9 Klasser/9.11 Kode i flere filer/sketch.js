@@ -13,7 +13,7 @@ function setup() {
   imageMode(CENTER);
 
   for (let i = 0; i < n; i++) {
-  	let nyBold = new Bold();
+    let nyBold = new Bold();
     bolde.push(nyBold);
   }
 }

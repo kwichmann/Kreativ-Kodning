@@ -9,6 +9,6 @@ function draw() {
 }
 
 function gren(l) {
-	line(0, 0, 0, -l);
+  line(0, 0, 0, -l);
   translate(0, -l);
 }

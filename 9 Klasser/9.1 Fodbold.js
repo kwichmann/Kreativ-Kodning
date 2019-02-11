@@ -2,7 +2,7 @@ let bold;
 let x, y
 
 function preload() {
-	bold = loadImage("fodbold.png");
+  bold = loadImage("fodbold.png");
 }
 
 function setup() {
@@ -18,5 +18,5 @@ function draw() {
 }
 
 function tegn() {
-	image(bold, x, y, stor, stor);
+  image(bold, x, y, stor, stor);
 }
